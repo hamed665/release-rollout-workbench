@@ -1,5 +1,7 @@
 # FlagPilot
 
+**Created and maintained by [Hamed Minaei](https://github.com/hamed665).**
+
 **Inspect deterministic experiment assignments before exposing a feature.**
 
 A dependency-free JavaScript engineering workbench by Hamed Minaei.
