@@ -1,0 +1,198 @@
+{
+  "summary": [
+    {
+      "label": "Subjects",
+      "value": 24
+    },
+    {
+      "label": "Exposed",
+      "value": 9
+    },
+    {
+      "label": "Rollout",
+      "value": "65%"
+    }
+  ],
+  "note": "Assignments are deterministic. Increasing rollout preserves the variant of already-exposed subjects when key, salt and weights are unchanged. This is not a significance test.",
+  "columns": [
+    "subject",
+    "status",
+    "variant",
+    "rollout_bucket",
+    "variant_bucket"
+  ],
+  "rows": [
+    {
+      "subject": "demo-001",
+      "status": "assigned",
+      "variant": "control",
+      "rollout_bucket": 3700,
+      "variant_bucket": 2240
+    },
+    {
+      "subject": "demo-002",
+      "status": "assigned",
+      "variant": "control",
+      "rollout_bucket": 601,
+      "variant_bucket": 2085
+    },
+    {
+      "subject": "demo-003",
+      "status": "assigned",
+      "variant": "treatment",
+      "rollout_bucket": 5522,
+      "variant_bucket": 5750
+    },
+    {
+      "subject": "demo-004",
+      "status": "assigned",
+      "variant": "treatment",
+      "rollout_bucket": 3655,
+      "variant_bucket": 5507
+    },
+    {
+      "subject": "demo-005",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9728,
+      "variant_bucket": 3220
+    },
+    {
+      "subject": "demo-006",
+      "status": "assigned",
+      "variant": "treatment",
+      "rollout_bucket": 3141,
+      "variant_bucket": 8729
+    },
+    {
+      "subject": "demo-007",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9134,
+      "variant_bucket": 1866
+    },
+    {
+      "subject": "demo-008",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 8995,
+      "variant_bucket": 6759
+    },
+    {
+      "subject": "demo-009",
+      "status": "assigned",
+      "variant": "treatment",
+      "rollout_bucket": 2332,
+      "variant_bucket": 5240
+    },
+    {
+      "subject": "demo-010",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 8146,
+      "variant_bucket": 6294
+    },
+    {
+      "subject": "demo-011",
+      "status": "assigned",
+      "variant": "control",
+      "rollout_bucket": 3065,
+      "variant_bucket": 3237
+    },
+    {
+      "subject": "demo-012",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 8180,
+      "variant_bucket": 6368
+    },
+    {
+      "subject": "demo-013",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9739,
+      "variant_bucket": 5791
+    },
+    {
+      "subject": "demo-014",
+      "status": "assigned",
+      "variant": "control",
+      "rollout_bucket": 5118,
+      "variant_bucket": 618
+    },
+    {
+      "subject": "demo-015",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 8533,
+      "variant_bucket": 2793
+    },
+    {
+      "subject": "demo-016",
+      "status": "assigned",
+      "variant": "treatment",
+      "rollout_bucket": 752,
+      "variant_bucket": 9588
+    },
+    {
+      "subject": "demo-017",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9735,
+      "variant_bucket": 7651
+    },
+    {
+      "subject": "demo-018",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9386,
+      "variant_bucket": 6270
+    },
+    {
+      "subject": "demo-019",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9409,
+      "variant_bucket": 5101
+    },
+    {
+      "subject": "demo-020",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9393,
+      "variant_bucket": 3245
+    },
+    {
+      "subject": "demo-021",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 9466,
+      "variant_bucket": 6750
+    },
+    {
+      "subject": "demo-022",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 8691,
+      "variant_bucket": 6055
+    },
+    {
+      "subject": "demo-023",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 6924,
+      "variant_bucket": 3224
+    },
+    {
+      "subject": "demo-024",
+      "status": "holdout",
+      "variant": null,
+      "rollout_bucket": 8765,
+      "variant_bucket": 9281
+    }
+  ],
+  "distribution": {
+    "control": 4,
+    "treatment": 5
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "config": {
+    "key": "checkout-v2",
+    "salt": "demo-seed-2026",
+    "rollout_bps": 6500,
+    "enabled": true,
+    "variants": [
+      {
+        "name": "control",
+        "weight_bps": 5000
+      },
+      {
+        "name": "treatment",
+        "weight_bps": 5000
+      }
+    ]
+  },
+  "subjects": [
+    "demo-001",
+    "demo-002",
+    "demo-003",
+    "demo-004",
+    "demo-005",
+    "demo-006",
+    "demo-007",
+    "demo-008",
+    "demo-009",
+    "demo-010",
+    "demo-011",
+    "demo-012",
+    "demo-013",
+    "demo-014",
+    "demo-015",
+    "demo-016",
+    "demo-017",
+    "demo-018",
+    "demo-019",
+    "demo-020",
+    "demo-021",
+    "demo-022",
+    "demo-023",
+    "demo-024"
+  ]
+}
